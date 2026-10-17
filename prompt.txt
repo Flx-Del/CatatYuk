@@ -1,0 +1,30 @@
+Bertindaklah sebagai Senior Full-Stack Software Engineer. Saya ingin membuat aplikasi web pencatatan keuangan pribadi bernama "CatatYuk" yang responsif (nyaman diakses lewat Mobile maupun PC) dan dideploy menggunakan GitHub Pages.
+
+Berikut adalah spesifikasi teknis dan fitur yang saya inginkan:
+
+1. ARSITEKTUR & TEKNOLOGI:
+- Frontend: HTML5, CSS3 (menggunakan pendekatan Responsive Web Design / CSS Flexbox/Grid atau framework CSS ringan seperti Tailwind CSS via CDN agar cepat), dan JavaScript (ES6+).
+- Library Grafik/Visualisasi: Chart.js (untuk menampilkan line chart pengeluaran per periode dan pie/bar chart komposisi kategori).
+- Backend / Database: Cloud Database menggunakan Supabase (atau Firebase Firestore), di mana web akan terhubung langsung via JavaScript SDK sehingga bisa di-host statis di GitHub Pages.
+
+2. FITUR UTAMA:
+- Form Input Transaksi: 
+  - Jenis transaksi: Pemasukan (Income) atau Pengeluaran (Expense).
+  - Nominal angka.
+  - Kategori (Contoh: Makanan, Transportasi, Belanja, Utilitas, Gaji, Lainnya).
+  - Tanggal transaksi (secara default terisi tanggal hari ini, tapi bisa diubah manual).
+  - Catatan tambahan (opsional).
+- Dashboard & Ringkasan (Summary):
+  - Kartu ringkasan total saldo saat ini, total pemasukan bulan ini, dan total pengeluaran bulan ini.
+  - Filter berdasarkan kategori dan rentang tanggal (periode tertentu).
+- Tabel Histori Transaksi:
+  - Menampilkan daftar riwayat transaksi berdasarkan urutan tanggal terbaru.
+  - Dilengkapi tombol untuk menghapus transaksi.
+- Visualisasi Grafik (Charts):
+  - Line Chart: Tren pengeluaran harian/bulanan pada periode tertentu.
+  - Pie atau Bar Chart: Komposisi pengeluaran berdasarkan kategori.
+
+3. STRUKTUR & TAMPILAN:
+- Desain UI/UX yang bersih, modern, minimalis, dan *mobile-friendly* (menggunakan tata letak yang fleksibel). Header atau logo aplikasi menampilkan nama "CatatYuk".
+
+Tolong buatkan kode lengkapnya (struktur file HTML, CSS, dan JavaScript) beserta instruksi langkah-langkah konfigurasi koneksi ke Supabase/Firebase dan cara deployment ke GitHub Pages.
