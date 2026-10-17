@@ -41,7 +41,6 @@
 CatatYuk/
 │
 ├── index.html            # File utama tampilan aplikasi (HTML5, Tailwind, Chart.js)
-├── prompt.txt            # Dokumen spesifikasi kebutuhan aplikasi
 ├── README.md             # Panduan instalasi, konfigurasi Supabase, dan deployment
 │
 ├── css/
@@ -138,45 +137,6 @@ Anda memiliki **dua cara mudah**:
 
 ---
 
-## 🌐 Langkah 3: Cara Deployment ke GitHub Pages
-
-Deploy web statis CatatYuk ke GitHub Pages sangat cepat dan gratis:
-
-### 1. Inisialisasi Git Repository
-Buka terminal (PowerShell atau Git Bash) di dalam folder `CatatYuk`:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Aplikasi CatatYuk"
-```
-
-### 2. Buat Repository Baru di GitHub
-1. Buka [https://github.com/new](https://github.com/new).
-2. Beri nama repository, misalnya `CatatYuk`.
-3. Pilih opsi **Public**.
-4. Biarkan opsi checklist lainnya kosong, lalu klik **Create repository**.
-
-### 3. Push Kode ke GitHub
-Salin perintah dari halaman GitHub Anda dan jalankan di terminal:
-
-```bash
-git branch -M main
-git remote add origin https://github.com/<USERNAME-ANDA>/CatatYuk.git
-git push -u origin main
-```
-*(Ganti `<USERNAME-ANDA>` dengan username akun GitHub Anda).*
-
-### 4. Aktifkan Fitur GitHub Pages
-1. Di halaman repository GitHub Anda, klik tab **Settings** (di sebelah kanan atas).
-2. Pada menu bilah kiri, klik menu **Pages** (di bagian *Code and automation*).
-3. Pada bagian **Build and deployment**:
-   - **Source:** Pilih `Deploy from a branch`
-   - **Branch:** Pilih `main` dan folder `/(root)`
-4. Klik tombol **Save**.
-5. Tunggu sekitar 1 - 2 menit, lalu refresh halaman tersebut.
-6. Anda akan melihat link web aktif Anda:
-   👉 **`https://<USERNAME-ANDA>.github.io/CatatYuk/`**
 
 Aplikasi **CatatYuk** kini sudah live di internet dan dapat dibuka dari ponsel, tablet, maupun komputer di mana saja! 🎉
 
